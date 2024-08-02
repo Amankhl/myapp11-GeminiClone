@@ -1,0 +1,20 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .utility_btn{
+        @apply flex-row flex items-center hover:bg-[#dddfe2] hover:rounded-full gap-4 pl-3 p-2
+    }
+    .suggestion_box{
+        @apply bg-[#f0f4f9] hover:bg-[#DDE3EA] w-[12.5rem] h-[200px] rounded-[10px] p-[15px] cursor-pointer  
+    }
+}
+
+@layer utilities{
+    .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+    }
+}
+
